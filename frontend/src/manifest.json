@@ -1,50 +1,56 @@
 {
-    "name": "福彩AI助手",
-    "appid": "__UNI__LOTTERY_AI",
-    "description": "纯工具型福彩信息查询助手",
-    "versionName": "1.0.0",
-    "versionCode": "100",
-    "transformPx": false,
-    "app-plus": {
-        "usingComponents": true,
-        "nvueStyleCompiler": "uni-app",
-        "compilerVersion": 3,
-        "splashscreen": {
-            "alwaysShowBeforeRender": true,
-            "waiting": true,
-            "autoclose": true,
-            "delay": 0
-        },
-        "modules": {},
-        "distribute": {
-            "android": {
-                "permissions": [
-                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>"
-                ]
-            },
-            "ios": {},
-            "sdkConfigs": {}
-        }
+  "name": "福彩AI助手",
+  "appid": "__UNI__LOTTERY_AI",
+  "description": "纯工具型福彩信息查询助手",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "waiting": true,
+      "autoclose": true,
+      "delay": 0
     },
-    "quickapp": {},
-    "mp-weixin": {
-        "appid": "",
-        "setting": {
-            "urlCheck": false
-        },
-        "usingComponents": true
+    "modules": {},
+    "distribute": {
+      "android": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>"
+        ]
+      },
+      "ios": {},
+      "sdkConfigs": {}
+    }
+  },
+  "quickapp": {},
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false
     },
-    "mp-alipay": {
-        "usingComponents": true
-    },
-    "mp-baidu": {
-        "usingComponents": true
-    },
-    "mp-toutiao": {
-        "usingComponents": true
-    },
-    "uniStatistics": {
-        "enable": false
-    },
-    "vueVersion": "3"
+    "usingComponents": true
+  },
+  "mp-alipay": {
+    "usingComponents": true
+  },
+  "mp-baidu": {
+    "usingComponents": true
+  },
+  "mp-toutiao": {
+    "usingComponents": true
+  },
+  "uniStatistics": {
+    "enable": false
+  },
+  "vueVersion": "3",
+  "h5": {
+    "router": {
+      "mode": "hash",
+      "base": "/lottery2/"
+    }
+  }
 }

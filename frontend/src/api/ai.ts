@@ -25,7 +25,7 @@ export function sendChat(req: ChatRequest) {
 export function sendChatStream(req: ChatRequest, onChunk: (chunk: string, done: boolean) => void) {
   // H5 使用 fetch 实现 SSE
   // #ifdef H5
-  fetch(`http://localhost:3000/api/ai/chat/stream`, {
+  fetch(`/lottery2/api/ai/chat/stream`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(req),

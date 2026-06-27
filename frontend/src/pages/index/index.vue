@@ -223,8 +223,9 @@ async function sendMessage() {
 
 <style scoped>
 .chat-page {
-  min-height: 100vh;
-  padding-bottom: 240rpx;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   background-color: #F8F8F8;
 }
 
@@ -297,6 +298,8 @@ async function sendMessage() {
   display: flex;
   flex-direction: column;
   gap: 24rpx;
+  flex: 1;
+  overflow-y: auto;
 }
 
 .message-row {
